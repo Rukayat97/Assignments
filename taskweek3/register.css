@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  .container{
+    width:70%;
+    padding:20px; 
+  }
+  
+  input{
+    width:100%;
+    padding:10px;
+    background-color:#f1f1f1;
+    margin-top:10px;
+    margin-bottom:10px;
+    border:none;
+  }
+  
+  select{
+    width:100%;
+    padding:10px;
+    background-color: #f1f1f1;
+    margin-top:10px;
+    margin-bottom:10px;
+    border:none;
+  }
+  
+  input:focus{
+    background-color: silver;
+    border:none;
+  }
+  
+  select:focus{
+    background-color: silver;
+    border:none;
+  }
+  
+  .register{
+    width:100%;
+    cursor: pointer;
+    padding:10px;
+    border-radius: 50px;
+    background-color: green;
+  }
+  
+  .register:hover{
+    opacity:0.9;
+  }
+    
+  
